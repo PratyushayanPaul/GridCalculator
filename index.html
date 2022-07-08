@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Simple Calculator</h1>
+    <div class="grid-container">
+        <input type="text" id="output" class="grid-result" disabled>
+        <button onclick="insert(1)" class="grid-number">1</input>
+        <button onclick="insert(2)" class="grid-number">2</button>
+        <button  onclick="insert(3)" class="grid-number">3</button>
+        <button  onclick="insert('+')" class="grid-item">+</button>
+        <button  onclick="insert(4)" class="grid-number">4</button>
+        <button  onclick="insert(5)" class="grid-number">5</button>
+        <button  onclick="insert(6)" class="grid-number">6</button>
+        <button  onclick="insert('-')" class="grid-item">-</button>
+        <button  onclick="insert(7)" class="grid-number">7</button>
+        <button  onclick="insert(8)" class="grid-number">8</button>
+        <button  onclick="insert(9)" class="grid-number">9</button>
+        <button  onclick="insert('*')" class="grid-item">x</button>
+        <button  onclick="insert('clear')" class="grid-item">C</button>
+        <button  onclick="insert(0)" class="grid-number">0</button>
+        <button  onclick="insert('/')" class="grid-item">/</button>
+        <button onclick="insert('evaluate')" class="grid-item">=</button>
+        <script src="./calculator.js"></script>
+    </div>
+    
+</body>
+</html>
